@@ -1,0 +1,43 @@
+#background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+.container{ 
+    position: relative;
+    z-index:1;
+    margin: auto;
+}
+.pics{
+    margin: auto;  
+    height: 40rem;
+    width: 40rem;
+}
+table{  
+    height: 40rem;
+    width: 40rem;
+    transform: rotate(45deg);
+}
+tr{
+    height: 10rem;
+}
+td{  
+    width: 10rem;
+}
+img{
+    border-radius: 1rem;
+    height: 10rem;
+    width: 10rem;
+}
+
+img:hover{
+
+    transition: transform 0.3s ease;
+    transform: rotate(-45deg) scale(2);
+   
+}
+
